@@ -1,0 +1,15 @@
+0-255 - 25 times
+32-bit bitmask
+
+(what happens when things get too big? Can we say '256 is max?')
+
+25 bytes + 4 bytes 
+
+29 bytes.
+
+12345678901234567890123456789 <- 29 bytes.
+MTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkK
+
+^^^^ that's fine!
+maybe 'one more byte' first? - and prepend a version, like, 1, 2, 3...? Up to 256
+
