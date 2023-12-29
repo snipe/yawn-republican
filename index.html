@@ -1,13 +1,49 @@
 <html>
     <head>
         <title>Bingo!</title>
-        <link rel="stylesheet" href="bingo.css">
+        <link rel="stylesheet" href="/bingo.css">
+        <script src="//cdn.tailwindcss.com"></script>
+
     </head>
     <body>
-        <p>Here is the paragraph</p>
-        <div id="card"></div>
-        <p><a href='/'>Get another</a></p>
-        <script src="squares.js"></script>
-        <script src="bingo.js"></script>
+	    
+	    
+	    <div class="container md:container md:mx-auto">
+		    
+		    <h1 class="text-6xl text-center leading-loose">
+				This is how predictable you are. 
+			</h1>
+
+
+			<h2 class="text-2xl text-center leading-loose">
+				But go on being a "free thinker". Enjoy your brainworms.
+				
+				<a href='/' class="text-center bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+					Get another bingo card
+				</a>
+			
+			</h2>
+
+			
+			<br><br>
+			<div class="flex flex-wrap -mx-1 lg:-mx-5 h-24" id="card">
+	    	</div>
+	    
+	     	
+		</div>
+		
+
+        <script src="/squares.js"></script>
+        <script src="/bingo.js"></script>
+        
+ 
+          <br><br>
+          <br><br>
+
     </body>
+    
 </html>
+	
+	
+	
+	
