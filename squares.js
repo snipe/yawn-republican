@@ -57,5 +57,6 @@
     "RT Tucker Carlson",
     "RT Elon Musk",
     "RT Jack Posobiec",
+     "&quot;Awoke, not woke&quot;",
 
 ]
